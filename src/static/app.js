@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         activityCard.className = "activity-card";
 
         const spotsLeft = details.max_participants - details.participants.length;
+        console.log(spotsLeft)
 
           activityCard.innerHTML = `
             <h4>${name}</h4>
